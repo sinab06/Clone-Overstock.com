@@ -1,70 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
-</head>
-
-<style>
-    #footer_upperbox {
-        display: flex;
-        line-height: 2.5;
-        width: 100%;
-        background-color: #545658;
-        color: whitesmoke;
-        padding: 0px 20px;
-        margin-left: -1%;
-    }
-
-    #footer_upperbox > div {
-        margin-left: 11%;
-        padding: 20px 0px;
-        font-size: 13px;
-        
-    }
-
-    #footer_lowerbox {
-        display: flex;
-        width: 100%;
-        padding: 0px 20px;
-        margin-left: -1%;
-        background-color: #2f3337;
-        color: whitesmoke;
-    }
-
-    #footer_lowerbox > div {
-        padding: 7px 0px;
-        margin-top: 1.5%;
-        font-size: 13px;
-    }
-
-    #footer_lowerbox >div:nth-child(1) {
-        margin-left: 3%;
-        margin-right: 10%;
-    }
-
-    #footer_lowerbox >div:nth-child(2) {
-        display: flex;
-        margin-left: 20%;
-    }
-
-    .margin_footer_lowerbox {
-        margin-left: 2%;
-    }
-
-    #flag {
-            width: 25%;
-            height: 17%;
-        }
+function footer() {
     
-
-</style>
-
-
-<body>
-
+    return `
     <div>
         <div id="footer_upperbox">
 
@@ -127,6 +63,7 @@
         </div>
 
     </div>
-    
-</body>
-</html>
+    `
+}
+
+export default footer ;
