@@ -417,15 +417,12 @@
   import { generateNavbar, generateFooter } from '../components/common.js';
   import { generateCategories } from '../components/home.js';
 
-  // Generating Navbar
   let navbar = document.getElementById('nav');
   navbar.innerHTML = generateNavbar();
 
-  // Generating Footer
   let footer = document.getElementById('foot');
   footer.innerHTML = generateFooter();
-
-  // Generating Categories
+  
   let categoriesDiv  = document.getElementById('fresh_find_div');
   generateCategories().then(data => categoriesDiv.innerHTML = data);
   

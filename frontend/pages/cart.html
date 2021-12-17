@@ -48,24 +48,21 @@
     import { generateNavbar, generateFooter } from '../components/common.js';
     import { generateCart, generateAmountDetail } from '../components/cart.js';
 
-    // Generating Navbar
     let navbar = document.getElementById('nav');
     navbar.innerHTML = generateNavbar();
 
-    // Generating Footer
     let footer = document.getElementById('foot');
     footer.innerHTML = generateFooter();
 
-    // Generating Cart detail
     let cartDiv = document.getElementById('products');
     const cart = JSON.parse(localStorage.getItem('cart'));
     generateCart(cart).then(data => cartDiv.innerHTML = data);
 
-    // Generating Amount detail page
     let amountDiv = document.getElementById('checkout-detail');
     amountDiv.innerHTML = generateAmountDetail(cart)
 
 </script>
+
 
 <script>
     function removeFromCart(id) {

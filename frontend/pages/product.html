@@ -67,12 +67,11 @@
 
 <script>
     function addToCart(id, category_id, price, description, image) {
-        // Get cart and product details
+        
         const product = { id, category_id, price, description, image }
         var quantitySelect = document.getElementById("quantity");
         let newCartItem = { quantity: parseInt(quantitySelect.value), product }
 
-        // Add cart along with product details in localstorage
         let cart = JSON.parse(localStorage.getItem('cart'));
         const cartIsArray =  Array.isArray(cart)
         if(cartIsArray) {
@@ -84,7 +83,6 @@
         }
         localStorage.setItem('cart', JSON.stringify(cart))
 
-        // go to cart.htl
         window.location.href = "cart.html";
     }
 </script>

@@ -134,7 +134,7 @@ export const generateFooter = () => {
 
       <div class="margin_footer_lowerbox">
         <span> Ship to: </span>
-        <span> <img id="flag"
+        <span> <img id="nav_flag"
             src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/383px-Flag_of_India.svg.png"
             alt=""> </span>
       </div>

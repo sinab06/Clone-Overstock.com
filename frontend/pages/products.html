@@ -113,15 +113,12 @@
     import { generateNavbar, generateFooter, getParameterByName } from '../components/common.js';
     import { generateProducts } from '../components/products.js';
 
-    // Generating Navbar
     let navbar = document.getElementById('nav');
     navbar.innerHTML = generateNavbar();
 
-    // Generating Footer
     let footer = document.getElementById('foot');
     footer.innerHTML = generateFooter();
 
-    // Generating Products By categoryId
     const category_id = getParameterByName('category', window.location.href);
     let productsDiv = document.getElementById('product_bar');
     generateProducts(category_id).then(data => productsDiv.innerHTML = data);

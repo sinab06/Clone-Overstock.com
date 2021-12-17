@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/sign-in.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+
+<body>
+    <div id="nav"> </div>
+
+
+    <div class="vvf">
+        <div class="bbf">
+            <div>
+                <h2 class="acccret">Create Account</h2>
+
+            </div>
+            <div>
+                <form action="" class="emel">
+                    <label class="address" for="">Email Address*</label>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Email" id="email">
+                </form>
+            </div>
+
+            <div class="crtpass">
+                <div>
+                    <br>
+                    <form action="">
+                        <label for="">Create Password*</label>
+                        <br>
+                        <br>
+                        <input type="text" placeholder="Password" id="pswrd">
+                    </form>
+                </div>
+
+
+
+                <div>
+                    <br>
+                    <form action="">
+                        <label for="">Confirm Password*</label>
+                        <br>
+                        <br>
+                        <input type="text" placeholder=" Confirm Password" id="confirm">
+                    </form>
+                </div>
+            </div>
+
+            <div class="email">
+                <input type="checkbox" name="omail_subscribe" value="true" id="Checkforemailsavings">
+
+                <span><strong>exclusive offers</strong>Sign up today for from Overstock.com delivered right to your
+                    inbox**</span>
+
+            </div>
+
+            <button onclick="signup()" type="submit" name="submit" class="info" alt="Create Account"><i
+                    class="os-icon os-icon-lock"></i>Create Account</button>
+            <hr>
+            <div>
+                <button class="guest" alt="Continue as Guest" type="submit" name="submit">Continue as Guest</button>
+                <p class="create-terms">
+                    By creating an account or continuing as a Guest, you agree to our <a
+                        href="https://help.overstock.com/app/answers/detail/a_id/63" target="_blank">Terms &amp;
+                        Conditions</a> and <a href="https://help.overstock.com/app/answers/detail/a_id/65"
+                        target="_blank">Privacy Policy</a>.
+                </p>
+            </div>
+
+            <p class="create-terms">
+                <a href="https://help.overstock.com/app/answers/detail/a_id/63" target="_blank">Terms &amp;
+                    Conditions</a> | <a href="https://help.overstock.com/app/answers/detail/a_id/65"
+                    target="_blank">Privacy Policy</a>.
+            </p>
+            <p class="unsubs">**You can unsubscribe at any time</p>
+        </div>
+        <div class="second">
+            <div>
+                <h2>Sign In</h2>
+
+            </div>
+
+            <div>
+                <form action="">
+                    <label for="">Email Address*</label>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Email" id="signEmail">
+                </form>
+            </div>
+
+
+            <div>
+                <br>
+                <form action="">
+                    <label for="">Password*</label>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Password" id="signPswrd">
+                </form>
+            </div>
+
+
+            <div>
+                <br>
+                <button onclick="signin()" type="Submit" name="submit" class=" success"><i class="os-icon os-icon-lock"></i>Sign
+                    In</button>
+            </div>
+            <br>
+            <a href="">Forgot your password?</a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div id="foot"> </div>
+</body>
+
+</html>
+
+
+<script type="module">
+    import { generateNavbar, generateFooter } from '../components/common.js';
+    import { generateCategories } from '../components/home.js';
+
+    let navbar = document.getElementById('nav');
+    navbar.innerHTML = generateNavbar();
+
+    let footer = document.getElementById('foot');
+    footer.innerHTML = generateFooter();
+</script>
+
+
+<script>
+
+    var arr = [];
+    function signup() {
+        let signup = JSON.parse(localStorage.getItem("signup"));
+
+        if(signup == null){
+            signup = [];
+        }
+      let email = document.getElementById("email")
+      let password = document.getElementById("pswrd")
+      let confirm = document.getElementById("confirm")
+      let obj = {
+          Email: email.value,
+          Password: password.value,
+          Confirm: confirm.value
+      }
+
+      arr.push(obj)
+//    console.log(arr[0].Confirm);
+
+   if(arr[0].Confirm == "" || arr[0].Password == "" || arr[0].Email == ""){
+    alert("Please fill all the details")  
+    window.location.href = "sign-in.html"
+   } else {
+    arr.push(obj);
+    localStorage.setItem("signup_detail",JSON.stringify(arr));
+    alert("SignUp Successful. Please Signin to continue");
+    window.location.href = "sign-in.html"
+   }
+
+
+   
+   }
+
+
+   function signin(){
+         let signin_data = JSON.parse(localStorage.getItem("signup_detail"));
+         console.log(signin_data);
+         let email = document.getElementById("signEmail").value;
+         let  pswrd = document.getElementById("signPswrd").value;
+
+         let savemail = signin_data[0].Email;
+         let savepswrd = signin_data[0].Password;
+
+        if(email== savemail && pswrd == savepswrd){
+            alert("SignIn Successfully");
+            window.location.href  ="home.html"
+        } else {
+            alert("Wrong Credentials")
+        }
+    }
+</script>
