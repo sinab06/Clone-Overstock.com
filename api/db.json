@@ -1,0 +1,276 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Furniture",
+      "image": "https://ak1.ostkcdn.com/img/mxc/11192021-CatSilo-Furniture.png?imwidth=1920"
+    },
+    {
+      "id": 2,
+      "name": "Area Rugs",
+      "image": "https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-AreaRugs.png?imwidth=1920"
+    },
+    {
+      "id": 3,
+      "name": "Bed & Bath",
+      "image": "https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-BedBath.png?imwidth=1920"
+    },
+    {
+      "id": 4,
+      "name": "Home Decor",
+      "image": "https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-Decor.png?imwidth=1920"
+    },
+    {
+      "id": 5,
+      "name": "Window Treatments",
+      "image": "https://ak1.ostkcdn.com/img/mxc/CatSilo-Window-040721.jpg?imwidth=1920"
+    },
+    {
+      "id": 6,
+      "name": "Kitchen",
+      "image": "https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-Kitchen.png?imwidth=1920"
+    },
+    {
+      "id": 7,
+      "name": "Outdoor",
+      "image": "https://ak1.ostkcdn.com/img/mxc/11192021-CatSilo-Outdoor.png?imwidth=1920"
+    },
+    {
+      "id": 8,
+      "name": "Home Improvement",
+      "image": "https://ak1.ostkcdn.com/img/mxc/01112021-CatSilo-HomeImp.jpg?imwidth=1920"
+    },
+    {
+      "id": 9,
+      "name": "Storage",
+      "image": "https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-Storage.png?imwidth=1920"
+    },
+    {
+      "id": 10,
+      "name": "Mattresses",
+      "image": "https://ak1.ostkcdn.com/img/mxc/01112021-CatSilo-Mattresses.jpg?imwidth=1920"
+    },
+    {
+      "id": 11,
+      "name": "Lighting",
+      "image": "https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-Lighting.png?imwidth=1920"
+    },
+    {
+      "id": 12,
+      "name": "Shop all Deals",
+      "image": "https://ak1.ostkcdn.com/img/mxc/CatSilo-AllDeals-040721.jpg?imwidth=1920"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 4,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 5,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 6,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 7,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 8,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 9,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 10,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 11,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 12,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 13,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 14,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 15,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 16,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 17,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 18,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 19,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 20,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 21,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 22,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 23,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 24,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 25,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 26,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 27,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 28,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 29,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    },
+    {
+      "id": 30,
+      "category_id": 1,
+      "price": 5560.9,
+      "description": "Hastings Home Narrow Flip Top End Table",
+      "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/c6d502320db524dbd7daff48116ed2c8be236a07/Hastings-Home-Narrow-Flip-Top-End-Table.jpg?imwidth=480&impolicy=medium"
+    }
+  ]
+}
