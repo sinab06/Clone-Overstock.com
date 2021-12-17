@@ -1,0 +1,105 @@
+#subgroup {
+  margin-top: 1%;
+  margin-bottom: 1.5%;
+  margin-left: 9%;
+  color: rgb(29, 28, 28);
+  font-size: 14px;
+}
+
+#product {
+  display: flex;
+  width: 75%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+}
+
+#product > div:nth-child(1) {
+  width: 53%;
+}
+
+#product > div:nth-child(2) {
+  width: 45%;
+  margin-left: 2.5%;
+}
+
+#product_img {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #dadcdf;
+}
+
+#product_right > div:nth-child(1) {
+  margin-top: 4%;
+  margin-bottom: 7%;
+  font-size: 22px;
+}
+
+#product_right > div:nth-child(2) {
+  color: red;
+  margin-bottom: 20%;
+  font-size: 18px;
+}
+
+#product_right > div:nth-child(3) {
+  margin-bottom: 15%;
+ 
+}
+
+#product_right > div:nth-child(4) {
+  margin-bottom: 7% ;
+  margin-left: 7%;
+  font-size: 12px;
+}
+
+#product_right > div:nth-child(5) {
+  margin-left: 7%;  
+}
+
+#btn_cart {
+  color: whitesmoke;
+  background-color: green;
+  border: 1px solid green;
+  width: 200px;
+  height: 32px;
+  border-radius: 5px;
+  margin-left: 20%;
+}
+
+#quantity {
+  width: 170px;
+  height: 32px;
+  padding: 8px;
+}
+
+#heart_logo {
+  width:15px;
+  height:15px;
+  margin-top: 2px;
+}
+
+#heart_div {
+  width: 10%;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#blank {
+  height:25px;
+  background-color:rgb(185, 184, 184);
+  color:rgb(185, 184, 184);
+  padding:3.5px 0px;
+}
+
+#fav_div {
+  width: 30%;
+  margin-left: 15%;
+  padding-top: 10px;
+}
+
+#favourite {
+  border: 1px solid #dadcdf;
+  width: 40%;
+  height: 25px;
+  background-color: rgb(212, 208, 208);
+}

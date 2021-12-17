@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/cart.css">
+</head>
+
+
+
+
+<body>
+    
+    <div id="nav"> </div>
+
+
+    <div id="cart_title">
+        <strong> Shopping Cart </strong>
+    </div>
+
+
+
+    <div id="cart_div">
+
+        <div id="products">
+        </div>
+        
+
+
+
+        <div id="checkout-detail">
+        </div>
+    </div>
+
+
+
+    <div id="foot"> </div>
+
+</body>
+</html>
+
+<script type="module">
+    import { generateNavbar, generateFooter } from '../components/common.js';
+    import { generateCart, generateAmountDetail } from '../components/cart.js';
+
+    // Generating Navbar
+    let navbar = document.getElementById('nav');
+    navbar.innerHTML = generateNavbar();
+
+    // Generating Footer
+    let footer = document.getElementById('foot');
+    footer.innerHTML = generateFooter();
+
+    // Generating Cart detail
+    let cartDiv = document.getElementById('products');
+    const cart = JSON.parse(localStorage.getItem('cart'));
+    generateCart(cart).then(data => cartDiv.innerHTML = data);
+
+    // Generating Amount detail page
+    let amountDiv = document.getElementById('checkout-detail');
+    amountDiv.innerHTML = generateAmountDetail(cart)
+
+</script>
+
+<script>
+    function removeFromCart(id) {
+        let cart = JSON.parse(localStorage.getItem('cart'));
+        cart = cart.filter(c => c.id != id);
+        localStorage.setItem('cart', JSON.stringify(cart))
+        window.location.href = "cart.html";
+    }
+
+    function onCheckout() {
+        window.location.href = "checkout.html"
+    }
+</script>

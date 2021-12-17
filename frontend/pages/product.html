@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top End Table</title>
+
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/product.css">
+</head>
+
+
+
+
+<body>
+
+    <div id="nav"> </div>
+
+    <div id="subgroup">
+        Home Good &nbsp; &nbsp;/&nbsp; &nbsp; Furniture &nbsp; &nbsp;/&nbsp; &nbsp; Living Room Furniture &nbsp;
+        &nbsp;/&nbsp; &nbsp; Coffee, Console, Sofa & End Tables ;
+    </div>
+
+
+    <div>
+        <div id="product">
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div id="foot"> </div>
+
+
+</body>
+
+</html>
+
+
+
+
+<script type="module">
+    import { generateNavbar, generateFooter, getParameterByName } from '../components/common.js';
+    import { generateProductDetail } from '../components/product.js';
+
+    // Generating Navbar
+    let navbar = document.getElementById('nav');
+    navbar.innerHTML = generateNavbar();
+
+    // Generating Footer
+    let footer = document.getElementById('foot');
+    footer.innerHTML = generateFooter();
+
+    // Generating Product detail By productId
+    const product_id = getParameterByName('id', window.location.href);
+    let productDetailDiv = document.getElementById('product');
+    generateProductDetail(product_id).then(data => productDetailDiv.innerHTML = data);
+
+</script>
+
+<script>
+    function addToCart(id, category_id, price, description, image) {
+        // Get cart and product details
+        const product = { id, category_id, price, description, image }
+        var quantitySelect = document.getElementById("quantity");
+        let newCartItem = { quantity: parseInt(quantitySelect.value), product }
+
+        // Add cart along with product details in localstorage
+        let cart = JSON.parse(localStorage.getItem('cart'));
+        const cartIsArray =  Array.isArray(cart)
+        if(cartIsArray) {
+            newCartItem.id = cart.length + 1;
+            cart.push(newCartItem);
+        } else {
+            newCartItem.id = 1;
+            cart = [newCartItem];
+        }
+        localStorage.setItem('cart', JSON.stringify(cart))
+
+        // go to cart.htl
+        window.location.href = "cart.html";
+    }
+</script>
