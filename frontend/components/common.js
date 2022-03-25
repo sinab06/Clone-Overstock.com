@@ -10,7 +10,7 @@ export const generateNavbar = () => {
 
 
   <div id="navbar_box">
-    <div> <a href="../index.html"><img id="logo" src="https://brandlogovector.com/wp-content/uploads/2021/10/Overstock-Logo.png"
+    <div> <a href="../../index.html"><img id="logo" src="https://brandlogovector.com/wp-content/uploads/2021/10/Overstock-Logo.png"
         alt="Overstock.com" /></a>
     </div>
 

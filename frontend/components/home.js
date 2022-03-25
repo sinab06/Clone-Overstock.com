@@ -2,7 +2,7 @@ import { splitArrayIntoChunks } from './common.js';
 
 const generateCategory = (id, name, img) => {
   return `<div id="category-${id}">
-    <a href="products.html?category=${id}"><div> <img class="fresh_find_img"
+    <a href="frontend/pages/products.html?category=${id}"><div> <img class="fresh_find_img"
       src="${img}" alt=""> </div>
     <div class="fresh_find_title">${name}</div></a>
   </div>`
